@@ -1,0 +1,7 @@
+f=open('test.txt','w')
+f.write("Welcome to python")
+f.close()
+f=open('test.txt','r')
+print(f.read())
+f.close()
+print(f.closed)
